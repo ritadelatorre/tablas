@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tablas anidadas</title>
+  <link rel="stylesheet" href="./css/anidada.css">
+  <link rel="shortcut icon" href="./img/table.png">
+  <script src="./js/bloquear.js"></script>
+</head>
+<body>
+
+  <h1>Los climas de Sudamérica</h1>
+  <h2>Clasificación climática de Köppen (1980-2016)</h2>
+  <p><cite><a href="https://elordenmundial.com/mapas-y-graficos/mapa-climas-america-del-sur/" target="_blank" rel="noopener">Los climas de sudamérica</a></cite></p>
+  <p>América del sur tiene uno de los mapas climáticos más complejos del mundo. El <cite>sistema Köppen</cite> clasifica casi una veintena de climas de gran extensión en la región, pero también pequeñas bolsas de otros tantos. Gran parte de Sudamérica se encuentra en la zona intertropical, pero el <b>Cono Sur</b> se extiende hasta las proximidades del <b>Círculo polar antártico</b>, generando una amplia diversidad climática en el subcontinente. Además, la presencia de <b>Los Andes</b> modifica las temperaturas y precipitaciones y genera grandes anomalías respecto a las tierras bajas, dando como resultado climas templados y fríos en zonas tropicales.</p>
+  <p>Simplificando, se puede resumir el clima sudamericano en la siguiente tabla:</p>
+
+  <table class="grisClaro" width="80%" title='class="grisClaro" width="80%"'>
+    <tr>
+      <th colspan="4" title="Esta celda es &lt;th>">Climas de América del Sur</th>
+    </tr>
+    <tr>
+      <td><p>Parte norte<br>de América del Sur.<br>Países como:</p></td>
+      <td>
+        <!-- tabla anidada -->        
+        <table class="grisOscuro" title='class="grisOscuro"'>
+            <tr><td>Venezuela</td></tr>
+            <tr><td>Colombia</td></tr>
+            <tr><td>Ecuador</td></tr>
+            <tr><td>Perú</td></tr>
+            <tr><td>Norte de Brasil</td></tr>
+        </table>
+        <!-- fin tabla anidada -->
+      </td>
+      <td><p>Parte sur<br>de América del Sur.<br>Países como:</p></td>
+      <td>
+        <!-- tabla anidada -->
+        <table class="grisOscuro" title='class="grisOscuro"'>
+            <tr><td>Argentina</td></tr>
+            <tr><td>Chile</td></tr>
+            <tr><td>Uruguay</td></tr>
+            <tr><td>Paraguay</td></tr>
+            <tr><td>Sur de Brasil</td></tr>
+        </table>
+        <!-- fin tabla anidada -->  
+      </td>
+    </tr>
+    <tr class="azulMar" title='class="azulMar"'>
+      <td colspan="2">
+        <p>
+          Clima tropical, clima de sabana,
+          clima marítimo con inviernos secos.
+        </p>
+      </td>
+      <td colspan="2">
+        <p>
+          Climas marítimos con veranos secos,
+          climas fríos, de estepa, desérticos.
+        </p>
+      </td>
+    </tr>
+  </table>
+
+
+
+</body>
+</html>

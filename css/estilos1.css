@@ -1,0 +1,99 @@
+body {
+  font-family: Nunito, 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #5C758F;
+  -webkit-user-select: none;
+  /* Compatibilidad con WebKit */
+  user-select: none;
+  /* Para navegadores modernos */
+}
+
+table {
+  width: 99%;
+  border-collapse: collapse;
+  background-color: gainsboro;
+  border-collapse: separate;
+  /* Es importante usar 'separate' */
+  border-spacing: 5px;
+  /* Espaciado entre celdas para apreciar el efecto de bordes redondeados */
+  border-radius: 8px;
+}
+
+tr {
+  border: 5px 2px solid azure;
+}
+
+td,
+th {
+  text-align: center;
+  height: 1.7em;
+  border: 1px solid #7393B3;
+  border-radius: 8px; /* Redondear los bordes */
+  padding: 1px; /* Espaciado dentro de la celda */  
+}
+
+.ancho {
+  width: 19.5%;
+}
+td {
+  vertical-align: super;
+  padding: 1em 0;
+  background-color: white;
+}
+
+th {
+  color: white; background-color:  #5C758F;
+}
+
+.ri {
+  transform: rotate(-6deg);
+  background-color: yellowgreen;
+  vertical-align: middle;
+  text-align: center; 
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Añade sombra */
+}
+
+.rd {
+  transform: rotate(6deg);
+  background-color: yellowgreen;
+  vertical-align: middle;
+  text-align: center; 
+  box-shadow: 5px 5px 15px rgba(119, 152, 52, 0.8); /* Añade sombra */
+}
+
+h1,
+h2,
+h3 {
+  color: #ffd700;
+  margin-top: 3px;
+}
+
+h1 {
+  text-shadow: 1px 1px 2px black;
+  vertical-align: middle;
+  font-weight: 900;
+}
+
+.inclinar {
+  display: inline-block; /* Necesario para que la rotación funcione correctamente */
+  transform: rotate(-7deg); /* Rota el texto 45 grados */
+}
+
+cite {
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  color: DarkBlue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-variant: small-caps;
+  cursor: pointer
+}
