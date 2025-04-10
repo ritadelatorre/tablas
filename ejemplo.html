@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo sombras</title>
+
+  <style>
+    body {
+      width: 80%;
+      margin: 0 auto;
+      background-color: #E3DAC9;
+      text-align: center;
+    }
+
+    div {
+      width: 4em;
+      margin: 1em;
+      padding: 1em 0;
+      background-color: white;
+      border: 1px solid black;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .caja1 {
+      box-shadow: none;
+    }
+
+    .caja2 {
+      box-shadow: -5px -5px 8px 0 rgba(20, 20, 20, 0.3);
+      transform: rotate(-5deg);
+    }
+
+    .caja3 {
+      box-shadow: 7px 7px 12px 0 rgba(0, 0, 255, 0.5);
+      transform: rotate(5deg);      
+    }
+
+    .caja4 {
+      box-shadow: 14px 14px 20px 0 rgba(0, 0, 0, 0.6);
+      transform: rotate(45deg);
+    }
+
+    .caja4 {
+      box-shadow: 14px 14px 20px 0 rgba(0, 0, 0, 0.6);
+      transform: rotate(-45deg);
+    }
+
+    .caja5 {
+      box-shadow: inset 1px 1px 4px 2px rgba(255, 0, 0, 0.4);
+      transform: rotate(180deg);
+    }
+
+    .caja6 {
+      box-shadow: 2px 2px 8px 0 cyan,
+        4px 4px 16px 5px darkmagenta,
+        1px 1px 24px 8px yellowgreen;
+        transform: rotate(-90deg);
+    }
+
+    h1, h2, h3 {
+      font-weight: 900;
+      font-size: 1.7em;
+      margin: 5px 0;
+    }
+
+    h1 {
+      text-shadow: 0 0 10px yellowgreen;
+    }
+
+    h2 {
+      color: white;
+      text-shadow: 1px 1px 4px darkgreen;
+    }
+
+    h3 { text-shadow: 0 0 20px #fefcc9, 
+                      2px -2px 3px #feec85, 
+                      -4px -4px 5px #ffae34, 
+                      5px -10px 6px #ec760c, 
+                      -5px -12px 8px #cd4606, 
+                      0 -15px 20px #973716, 
+                      2px -15px 20px #451b0e;
+          color: #666;
+    }
+
+    mark {
+      background-color: black;
+      color: whitesmoke;
+    }
+    .izq {text-align: left;}
+  </style>
+
+</head>
+
+<body>
+  <h1>Ejemplo <code>text-shadow</code> 1</h1>
+  <h2>Ejemplo <code>text-shadow</code> 2</h2>
+  <h3>Ejemplo <code>text-shadow</code>3</h3>
+  <p>Abajo puedes ver varios efectos de sombra y rotación para elementos de bloque</p>
+  <hr>
+  <div class="caja1">caja1</div>
+  <div class="caja2">caja2</div>
+  <div class="caja3">caja3</div><br>
+  <div class="caja4">caja4</div>
+  <div class="caja5">caja5</div>
+  <div class="caja6">caja6</div>
+  <hr>
+  <p class="izq">
+    Clica con el botón derecho del ratón y selecciona
+    <mark>Ver código fuente de la página</mark> para que copies el código.
+  </p>
+
+</body>
+
+</html>
