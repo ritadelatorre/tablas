@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="./img/table.png">
+  <link rel="stylesheet" href="./css/nosel.css">
+  <script src="./js/bloquear.js"></script>
+
+  <link rel="stylesheet" href="./css/tablaa.css">
+  <title>Tabla A</title>
+</head>
+<body>
+  <main>    
+    <table>
+      <thead>
+        <tr>
+          <th class="blanco"><h1>PRICE TABLE</h1></th>
+          <th>&nbsp;</th>
+          <th class="blue">FREE<br><b>$0.00</b><br>per month</th>
+          <th>&nbsp;</th>
+          <th class="morado">STANDARD<br><b>$9.99</b><br>per month</th>
+          <th>&nbsp;</th>
+          <th class="fuscia">BASIC<br><b>$19.99</b><br>per month</th>
+          <th>&nbsp;</th>
+          <th class="naranja">FREEMIUM<br><b>$49.99</b><br>per month</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Debitis, facilis accusantium omnis.</td>
+          <td>&nbsp;</td>
+          <td><img src="./img/yes.svg" alt="yes"></td>
+          <td>&nbsp;</td>
+          <td><img src="./img/yes.svg" alt="yes"></td>
+          <td>&nbsp;</td>
+          <td><img src="./img/yes.svg" alt="yes"></td>
+          <td>&nbsp;</td>
+          <td><img src="./img/yes.svg" alt="yes"></td>
+        </tr>
+        <tr>
+          <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Debitis, facilis accusantium omnis.</td>
+          <td>&nbsp;</td>
+          <td><img src="./img/yes.svg" alt="yes"></td>
+          <td>&nbsp;</td>
+          <td><img src="./img/yes.svg" alt="yes"></td>
+          <td>&nbsp;</td>
+          <td><img src="./img/yes.svg" alt="yes"></td>
+          <td>&nbsp;</td>
+          <td><img src="./img/yes.svg" alt="yes"></td>
+        </tr>
+        <tr>
+          <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Debitis, facilis accusantium omnis.</td>
+          <td>&nbsp;</td>
+          <td><img src="./img/yes.svg" alt="yes"></td>
+          <td>&nbsp;</td>
+          <td><img src="./img/yes.svg" alt="yes"></td>
+          <td>&nbsp;</td>
+          <td><img src="./img/yes.svg" alt="yes"></td>
+          <td>&nbsp;</td>
+          <td><img src="./img/no.svg" alt="no"></td>
+        </tr>
+        <tr>
+          <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Debitis, facilis accusantium omnis.</td>
+          <td>&nbsp;</td>
+          <td><img src="./img/yes.svg" alt="yes"></td>
+          <td>&nbsp;</td>
+          <td><img src="./img/yes.svg" alt="yes"></td>
+          <td>&nbsp;</td>
+          <td><img src="./img/no.svg" alt="no"></td>
+          <td>&nbsp;</td>
+          <td><img src="./img/no.svg" alt="no"></td>
+        </tr>   
+        <tr>
+          <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Debitis, facilis accusantium omnis.</td>
+          <td>&nbsp;</td>
+          <td><img src="./img/yes.svg" alt="yes"></td>
+          <td>&nbsp;</td>
+          <td><img src="./img/no.svg" alt="no"></td>
+          <td>&nbsp;</td>
+          <td><img src="./img/no.svg" alt="no"></td>
+          <td>&nbsp;</td>
+          <td><img src="./img/no.svg" alt="no"></td>
+        </tr>                                             
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <th class="blue">SUBSCRIBE</th>
+          <td>&nbsp;</td>
+          <th class="morado">SUBSCRIBE</th>
+          <td>&nbsp;</td>
+          <th class="fuscia">SUBSCRIBE</th>
+          <td>&nbsp;</td>
+          <th class="naranja">SUBSCRIBE</th>
+        </tr>
+      </tfoot>
+    </table>
+    
+    <blockquote>
+      <p>Para hacer el efecto pijama en la tabla de arriba, se coloca el siguiente CSS:</p>
+      <pre><code>
+      tr:nth-child(even) {
+        background-color: #f2f2f2; /* Color gris claro para filas pares */
+      }
+
+      tr:nth-child(odd) {
+        background-color: white; /* Color blanco para filas impares */
+      }</code></pre>
+
+      <p>Usamos las pseudo-clases <code>nth-child(even)</code> para seleccionar las filas pares (<code>2, 4, 6...</code>) y <code>nth-child(odd)</code> para seleccionar las filas impares (<code>1, 3, 5...</code>).</p>
+    </blockquote>    
+  </main>
+</body>
+</html>
