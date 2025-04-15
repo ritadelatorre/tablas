@@ -1,0 +1,70 @@
+body {
+  font-family: Nunito,Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #8C92AC;;
+}
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+table {
+  margin-top: 2em;
+  width: 100%;
+  background-color: transparent;
+  font-size: 0.85em;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.blanco {
+  background-color: white;
+}
+
+tfoot > tr > th {
+  padding: 12px 5px;
+}
+
+td {
+  padding: 5px;
+  background-color: aliceblue;
+}
+
+th {
+  color: white;
+  padding: 5px;
+ }
+
+.arriba {
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+ }
+
+.abajo {
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.morado {
+  background-color: blueviolet;
+}
+
+.fuscia {
+  background-color: magenta;
+}
+
+.naranja {
+  background-color: orange;
+}
+
+.negro {
+  background-color: black;
+}
+
+b {
+  font-size: 1.5em;
+  font-weight: 600;
+}

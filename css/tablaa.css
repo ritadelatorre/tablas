@@ -1,0 +1,86 @@
+body {
+  font-family: Nunito,Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #F2F3F4;
+}
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+table {
+  margin-top: 2em;
+  width: 100%;
+  background-color: white;
+  font-size: 0.85em;
+  text-align: center;
+  border-collapse: collapse;
+
+  box-shadow: 1px 1px 20px #8C92AC;
+
+}
+
+
+tbody > tr:nth-child(even) {
+  background-color: white; /* Color gris claro para filas pares */
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: #F0F8FF; /* Color blanco para filas impares */
+}
+
+thead > tr,
+tfoot > tr 
+ {
+  background-color: transparent;
+}
+
+tfoot > tr > th {
+  padding: 12px 5px;
+}
+
+th {
+  border-radius: 15px;
+  border: white 4px solid;
+  color: white;
+  padding: 5px;
+ }
+
+.blue {
+  background-color: blue;
+}
+
+.morado {
+  background-color: blueviolet;
+}
+
+.fuscia {
+  background-color: magenta;
+}
+
+.naranja {
+  background-color: orange;
+}
+
+.blanco {
+  color: black;
+}
+
+b {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+blockquote {
+  font-size: 0.9em;
+  background-color: white;
+  padding: 10px;
+  border-left: #353839 4px solid;
+}
+
+kbd {
+  color: #03C03C;
+}
+
+span {
+  color: darkred;
+}

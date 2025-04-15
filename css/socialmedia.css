@@ -1,0 +1,113 @@
+body {
+  font-family: Nunito, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.table-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+h1 {
+  text-align: left;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* border-spacing: 1em 2px; */
+  background-color: white;
+  font-size: 0.85em;
+}
+
+col.encabezado {
+  /* Podemos dejar que se ajusten automáticamente o darles un porcentaje si se prefiere */
+  background-color: white;
+  width: 18%;
+}
+col.separator {
+  width: 10px; /* Ancho fijo para las columnas separadoras */
+  background-color: white;
+
+}
+col.data {
+  /* Podemos dejar que se ajusten automáticamente o darles un porcentaje si se prefiere */
+  width: auto;
+  background-color: gainsboro;
+}
+
+.sep {
+  border-bottom: 2px solid orange;  
+}
+
+.dat {
+  border-bottom: 2px solid gainsboro; 
+}
+
+.blanco {
+  background-color: white;
+  width: 20%;
+}
+
+thead > tr > th {
+  background-color: #555;
+  color: white;
+}
+
+tbody > tr > th {
+  text-align: left;
+  padding-left: 1em;
+  border-bottom: 2px solid orange; 
+}
+
+td, th {
+  padding: 8px;
+}
+.icon {
+  width: 18px;
+  height: 18px;
+  background-position: center;
+}
+
+.house {
+  background-image: url(../img/home.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.person {
+  background-image: url(../img/person.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mail {
+  background-image: url(../img/mail.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+footer > p {
+  margin: 0;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.naranja {
+  color: orange;
+} 
+
+.fuscia {
+  color:fuchsia;
+}
